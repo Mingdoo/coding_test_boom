@@ -10,7 +10,7 @@
 
 ##### 2. 본인의 github계정에 들어가 repository에 `coding_test_boom`이 생성되었는지 확인한다.
 
-![image-20210907215301585](PR tutorial)
+![image-20210907215301585](PR tutorial.assets/image-20210907215301585.png)
 
 ##### 3. 본인의 로컬 저장소로 `coding_test_boom`을 clone을 뜬다.
 
