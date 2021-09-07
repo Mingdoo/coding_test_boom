@@ -6,11 +6,11 @@
 
 ##### 1.  [강민수의 github](https://github.com/Mingdoo/coding_test_boom)으로 들어가서 우측 상단에 있는 Fork버튼을 누른다.
 
-![image-20210907215207587](PR tutorial.assets/image-20210907215207587.png)
+![image-20210907215207587](PR_tutorial.assets/image-20210907215207587.png)
 
 ##### 2. 본인의 github계정에 들어가 repository에 `coding_test_boom`이 생성되었는지 확인한다.
 
-![image-20210907215301585](PR tutorial.assets/image-20210907215301585.png)
+![image-20210907215301585](./PR_tutorial.assets/image-20210907215301585.png)
 
 ##### 3. 본인의 로컬 저장소로 `coding_test_boom`을 clone을 뜬다.
 
@@ -44,13 +44,13 @@ git push origin master
 
 
 
-![image-20210907215746146](PR tutorial.assets/image-20210907215746146.png)
+![image-20210907215746146](./PR_tutorial.assets/image-20210907215746146.png)
 
 
 
 ##### 3. 우상단의 New pull request를 클릭한다.
 
-![image-20210907215839763](PR tutorial.assets/image-20210907215839763.png)
+![image-20210907215839763](./PR_tutorial.assets/image-20210907215839763.png)
 
 
 
