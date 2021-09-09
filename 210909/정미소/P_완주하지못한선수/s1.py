@@ -15,10 +15,11 @@ def solution2(participant, completion):
         # if i not in completion:
         #     return i
         # else:
-        if i not in dict:
-            dict[i] = 1
-        else:
-            dict[i] += 1
+        # if i not in dict:
+        #     dict[i] = 1
+        # else:
+        #     dict[i] += 1
+        dict[i] = dict.get(i, 0) + 1
 
     for j in completion:
         dict[j] -= 1

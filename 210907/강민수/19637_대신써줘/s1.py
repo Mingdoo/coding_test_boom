@@ -3,6 +3,7 @@ sys.stdin = open('input.txt', 'r')
 
 N, M = map(int, input().split())
 grade = [sys.stdin.readline().split() for _ in range(N)]
+print(grade)
 
 def binary_search(grade, num):
     start, end = 0, len(grade) - 1
@@ -13,6 +14,7 @@ def binary_search(grade, num):
         else:
             start = mid + 1
     return start
+
 for _ in range(M):
     num = int(sys.stdin.readline())
     print(grade[binary_search(grade, num)][0])

@@ -1,8 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
 
-T = int(input())
-
 
 def binary_search(start, end, i):
 
@@ -22,5 +20,5 @@ for _ in range(N):
     lst. append([n, int(n_range)])
 
 for _ in range(M):
-    i = int(sys.stdin.readline())
+    i = int(input())
     print(binary_search(0, N-1, i))
