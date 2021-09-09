@@ -10,7 +10,7 @@ def dp_table(arr):
         elif i == 2:
             arr[i] = 2
         elif i == 3:
-            arr[i] = 4
+            arr[i] = 3
         else:
             arr[i] = arr[i - 1] + arr[i - 2] + arr[i - 3]
 
@@ -18,4 +18,4 @@ dp_table(arr)
 
 for i in range(it):
     num = int(sys.stdin.readline())
-    print(arr[num])
+    print(arr[num]%1000000009)
