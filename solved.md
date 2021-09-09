@@ -1,0 +1,21 @@
+# Solved
+
+- 백준
+
+| 순번 |     추천 문제      |                          문제 번호                           |                          문제 이름                           |                            난이도                            |                          풀이 링크                           | 푼 날짜 |
+| :--: | :----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | ------- |
+|  01  | :heavy_check_mark: | <a href="https://www.acmicpc.net/problem/19637" target="_blank">19637</a> | <a href="https://www.acmicpc.net/problem/19637" target="_blank">IF문 좀 대신 써줘</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |   <a href="./../solution/binary_search/19637">바로가기</a>   | 210907  |
+|  02  | :heavy_check_mark: | <a href="https://www.acmicpc.net/problem/9095" target="_blank">9095</a> | <a href="https://www.acmicpc.net/problem/9095" target="_blank">1, 2, 3 더하기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="./../solution/dynamic_programming_1/9095">바로가기</a> | 210907  |
+|  03  |         ✔️          |        [11399](https://www.acmicpc.net/problem/11399)        |         [ATM](https://www.acmicpc.net/problem/11399)         | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | [바로가기](https://github.com/tony9402/baekjoon/blob/main/solution/greedy/11399) | 210907  |
+
+- 프로그래머스
+
+|      |     추천 문제      | 문제 번호 |                          문제 이름                           |                            난이도                            | 풀이 링크 | 푼 날짜 |
+| :--: | :----------------: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-------: | ------- |
+|  01  | :heavy_check_mark: |   42576   | <a href="https://programmers.co.kr/learn/courses/30/lessons/42576" target="_blank">완주하지 못한 선수</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="https://gethlemn.tistory.com/2">바로가기</a> | 210909  |
+|  02  | :heavy_check_mark: |   42586   | <a href="https://programmers.co.kr/learn/courses/30/lessons/42586" target="_blank">기능개발</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="https://velog.io/@wjdtmdgml/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C42586%EB%B2%88%ED%8C%8C%EC%9D%B4%EC%8D%ACPython%EC%8A%A4%ED%83%9D%ED%81%90">바로가기</a> | 210909  |
+|  01  | :heavy_check_mark: | 42626 | <a href="https://programmers.co.kr/learn/courses/30/lessons/42626" target="_blank">더 맵게</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | <a href="https://velog.io/@injoon2019/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-42626-%EB%8D%94-%EB%A7%B5%EA%B2%8C-%ED%8C%8C%EC%9D%B4%EC%8D%AC">바로가기</a> |210912|
+|  02  | :heavy_check_mark: |   42748   | <a href="https://programmers.co.kr/learn/courses/30/lessons/42748" target="_blank">K번째수</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/5.svg"/> | <a href="https://copy-driven-dev.tistory.com/entry/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-ProgrammersPython-K%EB%B2%88%EC%A7%B8%EC%88%98">바로가기</a> |210912|
+|  03  | :heavy_check_mark: |   42840   | <a href="https://programmers.co.kr/learn/courses/30/lessons/42840" target="_blank">모의고사</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/> | <a href="https://gethlemn.tistory.com/4">바로가기</a> | 210912 |
+|  04  | :heavy_check_mark: |   42862   | <a href="https://programmers.co.kr/learn/courses/30/lessons/42862" target="_blank">체육복</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/> | <a href="https://velog.io/@injoon2019/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-42862-%EC%B2%B4%EC%9C%A1%EB%B3%B5-%ED%8C%8C%EC%9D%B4%EC%8D%AC">바로가기</a> |210912|
+
