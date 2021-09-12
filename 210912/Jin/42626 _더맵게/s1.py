@@ -1,3 +1,5 @@
+# 실패한 풀이,,, 흙
+
 def solution(scoville, k):
     length = len(scoville)
     idx = 0
