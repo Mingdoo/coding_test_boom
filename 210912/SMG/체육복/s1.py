@@ -13,12 +13,13 @@ def solution(n, lost, reserve):
                     students[i] += 1
                     students[i - 1] -= 1
         elif students[i] == 0:
-            if students[i + 1] == 2:
-                students[i] += 1
-                students[i + 1] -= 1
-            elif students[i - 1] == 2:
+            if students[i - 1] == 2:
                 students[i] += 1
                 students[i - 1] -= 1
+            elif students[i + 1] == 2:
+                students[i] += 1
+                students[i + 1] -= 1
+
     answer = len(students) - students.count(0) - 1
 
     return answer
