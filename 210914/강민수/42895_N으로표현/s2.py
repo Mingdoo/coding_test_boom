@@ -5,7 +5,6 @@ def solution(N, number):
 
     arr = [set() for i in range(9)]
 
-
     for i in range(1,9):
         arr[i].add(int(str(N)*i))
 

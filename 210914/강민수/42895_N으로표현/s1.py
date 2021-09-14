@@ -19,6 +19,7 @@ def solution(N, number):
                         dp_table[i].add(num1 // num2)
         if number in dp_table[i]:
             return i
+
     return -1
 
 print(solution(5,12))
