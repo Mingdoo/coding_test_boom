@@ -15,7 +15,7 @@ def solution(answers):
             score[1] += 1
         if answers[i] == s3[i%10]:
             score[2] += 1
-    print(score)
+
     for idx, j in enumerate(score):
         if j > max_score:
             answer = [idx+1]
