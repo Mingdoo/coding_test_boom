@@ -7,8 +7,7 @@ def solution(scoville, K):
     while scoville[0] < K and len(scoville) >= 2:
         s1 = heapq.heappop(scoville)
         s2 = heapq.heappop(scoville)
-        s3 = s1 + (s2 * 2)
-        heapq.heappush(scoville, s3)
+        heapq.heappush(scoville, s1 + (s2 * 2))
         answer += 1
     if max(scoville) < K:
         return -1
@@ -16,6 +15,9 @@ def solution(scoville, K):
     return answer
 
 def solution2(scoville, K):
+    scoville.sort()
+
+
 
 
 scoville = [1, 2, 3, 9, 10, 12]
