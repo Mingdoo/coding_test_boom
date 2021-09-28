@@ -19,3 +19,5 @@ def solution(jobs):
                 end += 1
 
     return ans // l
+
+print(solution(inp))
