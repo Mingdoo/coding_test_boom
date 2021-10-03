@@ -5,7 +5,6 @@ T = int(input())
 
 
 def find_road(i, j, l, K):
-    global status
     dx = [0, 1, 0, -1]  # 상하좌우
     dy = [1, 0, -1, 0]
     visited[i][j] = l
@@ -16,11 +15,11 @@ def find_road(i, j, l, K):
         if x in range(N) and y in range(N) and visited[x][y] == 0:
             if map_info[x][y] < map_info[i][j]:
                 find_road(x, y, l+1, K)
-            elif map_info[x][y] == map_info[i][j] and K != 0:
-                map_info[x][y] -= 1
-                find_road(x, y, l+1, 0)
-                map_info[x][y] += 1
-            elif map_info[x][y] > map_info[i][j] and K != 0:
+            # elif map_info[x][y] == map_info[i][j] and K != 0:
+            #     map_info[x][y] -= 1
+            #     find_road(x, y, l+1, 0)
+            #     map_info[x][y] += 1
+            elif map_info[x][y] >= map_info[i][j] and K != 0:
                 temp = map_info[x][y] - map_info[i][j]
                 if temp+1 <= K:
                     map_info[x][y] -= (temp+1)
