@@ -21,7 +21,6 @@ def find_route(board, r, c):
     return res
 
 def dfs(point, board, bool):
-
     global answer
     if visited[point[0]][point[1]] > answer:
         answer = visited[point[0]][point[1]]
@@ -40,6 +39,7 @@ def dfs(point, board, bool):
             #초기화
             visited[route[0]][route[1]] = 0
             board[route[0]][route[1]] = tmp
+
 T = int(input())
 for tc in range(1, T+1):
     N, K = map(int, input().split())
