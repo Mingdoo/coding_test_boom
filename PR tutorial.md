@@ -56,3 +56,42 @@ git push origin master
 
 ##### 4. Create pull request를 클릭한 후 간단한 메세지와 함께 merge를 요청한다.
 
+
+
+
+
+##### 5. 리모트 저장소에 원본 저장소 추가
+
+```
+$ git remote add upstream <https://github.com/~~~/~~~>
+```
+
+
+
+
+
+##### 5. 원본 저장소 fetch
+
+```
+$ git fetch upstream
+```
+
+
+
+
+
+##### 6. 원본 저장소 merge
+
+```
+$ git merge upstream/master
+```
+
+
+
+
+
+##### 7. 포크 저장소로 push
+
+```
+git push
+```
